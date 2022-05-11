@@ -8,7 +8,7 @@ public class Task5 {
         System.out.println("Please enter the total amount of seconds you would like to convert: ");
         int seconds = scanner.nextInt();
         int minutes = (seconds/60);
-        int minutes2 = (seconds/60)%60;
+        int minutes2 = (seconds/60)%60; // simplify this shit to what Yana had
         int hours = minutes/60;
         int seconds2 = seconds%60;
         System.out.println(seconds + " seconds equals to: \n" + hours +

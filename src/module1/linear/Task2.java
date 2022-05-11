@@ -15,5 +15,6 @@ public class Task2 {
         double denominator = 2 * a;
         double theRest = Math.pow(a, 3) * c - Math.pow(b, -2);
         double total = numerator/denominator - theRest;
+        System.out.println(total); // add a prompt
     }
 }

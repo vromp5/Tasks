@@ -9,7 +9,7 @@ public class Task1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a positive number: ");
         int j = scanner.nextInt();
-        while (i < j) {
+        while (i < j) { // for
             i++;
             sum = sum + i;
         }

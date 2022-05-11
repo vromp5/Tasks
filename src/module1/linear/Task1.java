@@ -6,11 +6,11 @@ public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a number for variable a: ");
-        float a = scanner.nextFloat();
+        double a = scanner.nextFloat();
         System.out.println("Please enter a number for variable b: ");
-        float b = scanner.nextFloat();
+        double b = scanner.nextFloat();
         System.out.println("Please enter a number for variable c: ");
-        float c = scanner.nextFloat();
+        double c = scanner.nextFloat();
         double z = ( (a - 3 ) * b / 2) + c;
         System.out.println("The result of the expression is: " + z);
     }

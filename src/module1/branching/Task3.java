@@ -1,5 +1,5 @@
 package module1.branching; // this program needs to see if the 3 points lie on the same line
-
+    // avoid using 'n' with System.out.prinln cuz ln already means newline
 import java.util.Scanner;
 
 public class Task3 {
